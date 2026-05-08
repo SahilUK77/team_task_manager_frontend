@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/", // Update with your backend API URL
+  baseURL: "https://teamtaskmanagerbackend-production-aa48.up.railway.app/",
 });
 
 // Add a request interceptor to attach the JWT token
